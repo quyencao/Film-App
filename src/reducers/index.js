@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import FilmsReducers from './filmsReducers';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  films: FilmsReducers
 });
 
 export default rootReducer;
